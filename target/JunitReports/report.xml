@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.686">
+    <testcase classname="User is on Homepage" name="verify the all the basic functionalities" time="0.088">
+        <failure message="" type="java.lang.StackOverflowError"><![CDATA[Given open the loginpage....................................................skipped
+And Enter the credenrtails..................................................skipped
+Then open the home..........................................................skipped
+Given verify the Newarrivals................................................skipped
+And verify the MyAccount....................................................skipped
+
+StackTrace:
+java.lang.StackOverflowError
+	at StepDefinations.Hooks.launhApp(Hooks.java:27)
+]]></failure>
+    </testcase>
+    <testcase classname="User is on Homepage" name="verify the napbar" time="0.058">
+        <failure message="" type="java.lang.StackOverflowError"><![CDATA[Given open the loginpage....................................................skipped
+And Enter the credenrtails..................................................skipped
+Then open the home..........................................................skipped
+Given verify BooksRequest functionality.....................................skipped
+And close the browser.......................................................skipped
+
+StackTrace:
+java.lang.StackOverflowError
+	at StepDefinations.Hooks.launhApp(Hooks.java:27)
+]]></failure>
+    </testcase>
+    <testcase classname="User is on Homepage" name="verify the all the basic functionalities" time="0.029">
+        <failure message="" type="java.lang.StackOverflowError"><![CDATA[Given verify the books dropdown.............................................skipped
+And verify the arts and photography.........................................skipped
+
+StackTrace:
+java.lang.StackOverflowError
+	at StepDefinations.Hooks.launhApp(Hooks.java:27)
+]]></failure>
+    </testcase>
+    <testcase classname="Test the url functionality" name="Verify the url" time="0.048">
+        <failure message="" type="java.lang.StackOverflowError"><![CDATA[Given User open the indexpage...............................................skipped
+And User should be on Login.................................................skipped
+
+StackTrace:
+java.lang.StackOverflowError
+	at StepDefinations.Hooks.launhApp(Hooks.java:27)
+]]></failure>
+    </testcase>
+    <testcase classname="Test the Indexpage  functionality" name="Verify user is able to Navigated to Loginpage" time="0.034">
+        <failure message="" type="java.lang.StackOverflowError"><![CDATA[Given User open the browser.................................................skipped
+And User should be on Indexpage.............................................skipped
+When User should click on login button......................................skipped
+Then user should be on Loginpage............................................skipped
+
+StackTrace:
+java.lang.StackOverflowError
+	at StepDefinations.Hooks.launhApp(Hooks.java:27)
+]]></failure>
+    </testcase>
+</testsuite>
